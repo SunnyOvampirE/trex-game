@@ -72,7 +72,7 @@ function setup() {
 
   
   trex.setCollider("rectangle",0,0,trex.width,trex.height);
-  trex.debug = true
+  //trex.debug = true
   
   score = 0;
   highScore = 0; 
@@ -80,7 +80,7 @@ function setup() {
 
 function draw() {
   
-  background(180);
+  background("lightpurple");
   //displaying score
   text("Score: "+ score, 500,50);
       text ("hScore:"+ highScore,500,60);
